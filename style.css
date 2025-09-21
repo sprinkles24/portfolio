@@ -1,8 +1,18 @@
 /*hello world*/
 
 body {
-  background-color: #421A49;
+  background-color: #fbe5ff;
 }
+
+.imageButton {
+  
+}
+
+.menu {
+  display: flex;
+}
+
+
 
 /*
 cloud color #92679c
