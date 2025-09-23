@@ -1,16 +1,48 @@
 /*hello world*/
 
 body {
+  color:#421a49;
   background-color: #fbe5ff;
+  font-family: "Gaegu", sans-serif;
 }
+
+h1 {
+  color:#421a49;
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  
+}
+
+.walter-turncoat-regular {
+  font-family: "Walter Turncoat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+
+display: flex;
+flex-direction: row;
+/* text-align: center;
+vertical-align: baseline; */
+
+}
+
+
+
 
 .imageButton {
   
 }
 
-.menu {
+/* .menu {
   display: flex;
-}
+  /* width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+} */
 
 
 
