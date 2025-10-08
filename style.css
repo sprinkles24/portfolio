@@ -15,6 +15,26 @@ h1 {
   
 }
 
+.projectTitle {
+  color: #92679C;
+  font-size: 2em;
+  margin:auto;
+}
+
+.projectLanguages {
+  color:#92679C;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.projectButtons {
+  background-color: #e7c1ff;
+  border-color: #421a49;
+  border-style: solid;
+  font-family: "Gamja Flower", "Gaegu", sans-serif;
+
+}
+
 .walter-turncoat-regular {
   font-family: "Walter Turncoat", cursive;
   font-weight: 400;
@@ -22,16 +42,28 @@ h1 {
 }
 
 .menu {
-
-display: flex;
-flex-direction: row;
-/* text-align: center;
-vertical-align: baseline; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* white-space: nowrap; */
+  /* margin:auto; */
 
 }
 
+.allProjects {
+  display: grid;
+  grid-template: auto / auto auto;
+}
 
+.projectBox {
+  border: 0.2em, solid, #92679C;
+  border-radius: 3em;
+  padding: 2em;
+  margin: 1em;
+  font-family: "Gamja Flower", "Gaegu", sans-serif;
+  font-size: 1.2em;
 
+}
 
 .imageButton {
   
@@ -45,11 +77,7 @@ vertical-align: baseline; */
 } */
 
 
+p {
+  font-size: 0.9em;
 
-/*
-cloud color #92679c
-
-
-
-
-*/
+}
