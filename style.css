@@ -1,4 +1,4 @@
-/*hello world*/
+
 
 body {
   color:#421a49;
@@ -13,6 +13,10 @@ h1 {
   font-style: normal;
   font-size: 4em;
   
+}
+
+button {
+  cursor: pointer;
 }
 
 .projectTitle {
@@ -52,7 +56,8 @@ h1 {
 
 .allProjects {
   display: grid;
-  grid-template: auto / auto auto;
+  flex-direction: row;
+  grid-template: auto / auto auto auto;
 }
 
 .projectBox {
@@ -65,19 +70,43 @@ h1 {
 
 }
 
-.imageButton {
+.socialButtons {
+  background-color: #e7c1ff;
+  border-width: 0.15em;
+  border-radius: 0.35em;
+  border-color: #92679C;
+  border-style: solid;
+  font-family: "Gamja Flower", "Gaegu", sans-serif;
+  font-size: 1.5em;
   
 }
-
-/* .menu {
-  display: flex;
-  /* width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-} */
 
 
 p {
   font-size: 0.9em;
+}
+
+.projectAwardAddition {
+  background-color: #CCCCCC;
+  color: #1c1c1c;
+  font-family: "Gaegu", "Gamja Flower", sans-serif;
+  padding: 1%;
+  height:auto;
+  width: 75%;
+  border-radius: 0.5em;
+  border: 0.1em, solid, #1c1c1c;
+  text-align: center;
+  margin: auto;
+}
+
+
+.poem {
+  width: fit-content;
+  margin: auto;
+  border: 0.5em, solid, #92679C;
+  border-radius: 0.3em;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
 
 }
