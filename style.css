@@ -46,11 +46,11 @@ button {
 }
 
 .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  /* white-space: nowrap; */
-  /* margin:auto; */
+  
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  justify-content: center;
+  align-items: center;
 
 }
 
