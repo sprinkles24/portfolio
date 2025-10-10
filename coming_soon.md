@@ -4,7 +4,6 @@
 
 ~ technical ~
 center headings on page
-certifications and accolades page
 linkedin, github, etc (not ig)
 
 ~ writing/images/videos ~
