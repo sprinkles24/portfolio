@@ -91,8 +91,7 @@ p {
   color: #1c1c1c;
   font-family: "Gaegu", "Gamja Flower", sans-serif;
   padding: 1%;
-  height:auto;
-  width: 75%;
+  width: auto;
   border-radius: 0.5em;
   border: 0.1em, solid, #1c1c1c;
   text-align: center;
