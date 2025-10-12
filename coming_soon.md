@@ -3,6 +3,8 @@
 ## to do:
 
 ~ technical ~
+
+
 ~ writing/images/videos ~
 lucy gray description
 add oscillart image
